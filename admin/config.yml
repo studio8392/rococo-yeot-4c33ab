@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: studio8392/rococo-yeti-4c33ab
+  branch: main
+
+media_folder: "STUDIO8392FILM_files"
+public_folder: "STUDIO8392FILM_files"
+
+collections:
+  - name: "films"
+    label: "Films"
+    folder: "/"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Status", name: "status", widget: "string"}
